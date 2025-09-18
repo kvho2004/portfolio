@@ -1,0 +1,19 @@
+/* avatar styling */
+.header-with-avatar .avatar img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 9999px;
+    /* circle */
+    max-width: 220px;
+    /* keep it modest on desktop */
+    display: block;
+    margin: 0 auto;
+}
+
+@media (min-width: 981px) {
+    .header-with-avatar .avatar img {
+        margin-left: auto;
+    }
+
+    /* nudge to the right on wide screens */
+}
