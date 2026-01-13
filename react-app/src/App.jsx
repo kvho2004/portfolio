@@ -1,17 +1,36 @@
 import { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
+
+// Pages
+import HomePage from "./pages/HomePage";
+import WhatImUpTo from "./pages/WhatImUpTo";
+import CurrentProjects from "./pages/CurrentProjects";
+import Archive from "./pages/Archive";
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold text-blue-600 mb-4">
-          Hello Tailwind + React!
-        </h1>
-        <p className="text-gray-600">
-          Your React app is ready. Start building!
-        </p>
+    <Router>
+      <div className="min-h-screen bg-gray-900 text-gray-100">
+        <Header onMenuClick={() => setMenuOpen(true)} />
+        <Navigation isOpen={menuOpen} onClose={() => setMenuOpen(false)} />
+
+        <main className="container mx-auto px-4 py-8 max-w-7xl">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/what-im-up-to" element={<WhatImUpTo />} />
+            <Route path="/current-projects" element={<CurrentProjects />} />
+            <Route path="/archive" element={<Archive />} />
+          </Routes>
+        </main>
+
+        <Footer />
       </div>
-    </div>
+    </Router>
   );
 }
 
