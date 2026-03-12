@@ -6,5 +6,6 @@ export const info = {
   email: "kvho@umich.edu",
   github: "https://github.com/kvho2004",
   linkedin: "https://www.linkedin.com/in/kvho/",
-  resume: "/resume.pdf",
+  resume:
+    "https://drive.google.com/file/d/16_22TtathZgRwj9vfrT-wcyo68YKXa4M/view?usp=sharing",
 };

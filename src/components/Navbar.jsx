@@ -3,23 +3,34 @@ import { Link } from "react-router-dom";
 import { info } from "../data/info";
 
 const links = [
-  { label: "About", to: "/" },
-  { label: "Experience", to: "/experience" },
-  { label: "Projects", to: "/projects" },
-  { label: "Contact", to: "/contact" },
+  { label: "ABOUT", to: "/" },
+//   { label: "EXP", to: "/#experience" },
+//   { label: "PROJECTS", to: "/#projects" },
+//   { label: "CONTACT", to: "/#contact" },
 ];
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-sm border-b border-stone-100 z-50">
+    <nav
+      className="fixed top-0 w-full z-50 border-b"
+      style={{
+        background: "rgba(200, 197, 188, 0.85)",
+        backdropFilter: "blur(8px)",
+        borderColor: "var(--color-border)",
+      }}
+    >
       <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link
           to="/"
-          className="text-stone-800 font-medium tracking-tight hover:text-stone-500 transition-colors"
+          className="text-xs hover:opacity-70 transition-opacity"
+          style={{
+            fontFamily: "'Press Start 2P', monospace",
+            color: "var(--color-amber)",
+          }}
         >
-          {info.shortName}
+          &gt; {info.shortName}_
         </Link>
 
         {/* Desktop */}
@@ -28,7 +39,11 @@ export default function Navbar() {
             <li key={label}>
               <Link
                 to={to}
-                className="text-sm text-stone-500 hover:text-stone-800 transition-colors"
+                className="text-xs hover:opacity-70 transition-opacity"
+                style={{
+                  fontFamily: "'Press Start 2P', monospace",
+                  color: "var(--color-muted)",
+                }}
               >
                 {label}
               </Link>
@@ -36,23 +51,36 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* Mobile toggle */}
+        {/* Mobile */}
         <button
-          className="md:hidden text-stone-500 hover:text-stone-800"
+          className="md:hidden text-xs"
+          style={{
+            fontFamily: "'Press Start 2P', monospace",
+            color: "var(--color-muted)",
+          }}
           onClick={() => setOpen(!open)}
         >
-          {open ? "✕" : "☰"}
+          {open ? "✕" : "≡"}
         </button>
       </div>
 
-      {/* Mobile menu */}
       {open && (
-        <div className="md:hidden border-t border-stone-100 bg-white px-6 py-4 flex flex-col gap-4">
+        <div
+          className="md:hidden border-t px-6 py-4 flex flex-col gap-4"
+          style={{
+            borderColor: "var(--color-border)",
+            background: "var(--color-bg)",
+          }}
+        >
           {links.map(({ label, to }) => (
             <Link
               key={label}
               to={to}
-              className="text-sm text-stone-500 hover:text-stone-800 transition-colors"
+              className="text-xs hover:opacity-70 transition-opacity"
+              style={{
+                fontFamily: "'Press Start 2P', monospace",
+                color: "var(--color-muted)",
+              }}
               onClick={() => setOpen(false)}
             >
               {label}
