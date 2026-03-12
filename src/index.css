@@ -1,3 +1,67 @@
+@import "@fontsource/press-start-2p";
+@import "@fontsource/vt323";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root {
+  --color-bg: #0d0d14;
+  --color-surface: #13131f;
+  --color-border: #2a2a40;
+  --color-pink: #ff79c6;
+  --color-cyan: #7ee8c8;
+  --color-cream: #e8e6f0;
+  --color-muted: #9e9bc0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-cream);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Scanline overlay */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.03) 2px,
+    rgba(0, 0, 0, 0.03) 4px
+  );
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* Pixel border utility */
+.pixel-border {
+  border: 2px solid var(--color-border);
+  box-shadow: 4px 4px 0px var(--color-border);
+}
+
+.pixel-border-amber {
+  border: 2px solid var(--color-amber);
+  box-shadow: 4px 4px 0px var(--color-amber);
+}
+
+/* Cursor blink */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.cursor-blink::after {
+  content: "█";
+  animation: blink 1s step-end infinite;
+  color: var(--color-amber);
+  margin-left: 2px;
+}
