@@ -22,6 +22,16 @@ export default function Projects() {
                   In Progress
                 </span>
               )}
+              {project.status === "Completed" && (
+                <span className="text-xs text-blue-600 bg-blue-50 px-2 py-1 rounded-full">
+                  Completed
+                </span>
+              )}  
+              {project.status === "In Testing" && (
+                <span className="text-xs text-yellow-600 bg-yellow-50 px-2 py-1 rounded-full">
+                  In User Testing
+                </span>
+              )}  
             </div>
 
             <p className="text-sm text-stone-500 leading-relaxed">{project.description}</p>
@@ -42,6 +52,33 @@ export default function Projects() {
                 className="text-sm text-stone-500 hover:text-stone-800 transition-colors mt-auto"
               >
                 View on GitHub →
+              </a>
+            )}
+            {project.demo && (
+              <a href={project.demo}
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm text-stone-500 hover:text-stone-800 transition-colors mt-auto"
+              >
+                View Demo →
+              </a>
+            )}
+            {project.link && (
+              <a href={project.link}
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm text-stone-500 hover:text-stone-800 transition-colors mt-auto"
+              >
+                View Documentation →
+              </a>
+            )}
+            {project.client && (
+              <a href={project.client}
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm text-stone-500 hover:text-stone-800 transition-colors mt-auto"
+              >
+                View Client Website →
               </a>
             )}
           </div>
