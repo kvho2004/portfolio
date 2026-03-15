@@ -1,6 +1,6 @@
 export const info = {
   name: "Khanh Vy (Vivian) O",
-  shortName: "Vivian O",
+  shortName: "Vivian O (Click here for more info!) ",
   tagline: "CS + Cognitive Science @ University of Michigan",
   bio: "I'm an undergraduate double-majoring in Computer Science and Cognitive Science at the University of Michigan–Ann Arbor. My work centers on designing inclusive technical solutions with meaningful social impact, particularly across civic engagement, education, and healthcare.",
   email: "kvho@umich.edu",
