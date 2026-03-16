@@ -4,7 +4,7 @@ export const experience = [
     company: "Bro-coli",
     period: "Jan 2026 – May 2026",
     bullets: [
-      "Architecting AI chatbot with React, TypeScript, and PostgreSQL, integrating WhatsApp Cloud API with webhook-based event handling",
+      "Architecting AI chatbot with React, TypeScript, and PostgreSQL, integrating WhatsApp Cloud and Telegram Bot APIs with webhook-based event handling",
       "Implementing prompt engineering guardrails, content filtering, and input sanitization for secure model performance at scale",
       "Leading technical development in Agile 2-week sprints with iterative deployment",
     ],
@@ -26,7 +26,7 @@ export const experience = [
     bullets: [
       "Rebuilt club website using React, Vite, and TypeScript with CI/CD via GitHub Actions",
       "Developed interactive UI with Google Maps API and Three.js 3D rendering",
-      "Co-led UI/UX subteam for Kelsey Museum of Archaeology WebAR Exhibit — designing mobile AR experience in Unity and Niantic 8th Wall with dual-mode Figma UI",
+      "Co-led UI/UX subteam for Kelsey Museum of Archaeology WebAR Exhibit — designing WebAR experience in Niantic 8th Wall with dual-mode Figma UI",
       "Increased user engagement by 132% through improved SEO and WCAG 2.1 accessibility",
     ],
   },
@@ -35,8 +35,19 @@ export const experience = [
     company: "U-M Library Scholars Program",
     period: "May 2025 – Aug 2025",
     bullets: [
-      "Automated recruitment pipeline via Qualtrics API and Calendly webhooks, reducing turnaround time by 40%",
+      "Automated recruitment pipeline via Qualtrics API and Calendly webhooks",
       "Engineered stratified sampling algorithm in Google Apps Script processing 709 participants with hash-based deduplication",
+    ],
+  },
+  {
+    role: "Joy of Coding Teaching Assistant",
+    company: "University of Michigan Electrical and Computer Engineering Department",
+    period: "April 2024 – Sep 2024",
+    bullets: [
+      "Coached over 700 students from around the world in coding fundamentals",
+      "Hosted one-to-one virtual office hours meetings with students to assist them with their assignments and provided personalized guidance.",
+      "Graded and provided feedback on students' work to help them improve their coding abilities.", 
+      "Reviewed and assessed learning content, which included Python basics and introductory machine learning, collecting data on students' work and responses to inform and enhance the lesson content."
     ],
   },
 ];

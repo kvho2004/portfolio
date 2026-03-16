@@ -30,7 +30,7 @@ export default function Navbar() {
             color: "var(--color-amber)",
           }}
         >
-          &gt; {info.shortName}_
+          &gt; {info.tempheading}_
         </Link>
 
         {/* Desktop */}
