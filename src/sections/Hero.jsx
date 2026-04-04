@@ -101,7 +101,7 @@ export default function Hero() {
                 <div className="w-2.5 h-2.5 rounded-full bg-[#ff5f57]" />
                 <div className="w-2.5 h-2.5 rounded-full bg-[#ffbd2e]" />
                 <div className="w-2.5 h-2.5 rounded-full bg-[#28c840]" />
-                <span className="ml-2 text-[10px] text-[#6a7490] font-mono">
+                <span className="ml-2 text-[10px] text-[#98a6d0] font-mono">
                   ascii_render.sh
                 </span>
               </div>

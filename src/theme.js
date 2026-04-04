@@ -15,13 +15,13 @@ export const THEMES = {
     chrome: {
       bg: "bg-[#dce6f5]/90",
       border: "border-[#c4d0e4]/50",
-      url: "bg-white/50 text-[#6a7490]",
+      url: "bg-white/50 text-[#98a6d0]",
     },
     toggle: "bg-white/60 border-white/80 text-[#2b2f3a]",
     text: {
       primary: "text-[#2b2f3a]",
       secondary: "text-[#5a5f72]",
-      muted: "text-[#9096a8]",
+      muted: "text-[#676c79]",
     },
     button: {
       solid: "bg-[#2b2f3a] text-[#e8eaf0] hover:bg-[#5a5f72]",
@@ -48,13 +48,13 @@ export const THEMES = {
     chrome: {
       bg: "bg-[#363b4a]/95",
       border: "border-[#404558]/30",
-      url: "bg-[#2b2f3a]/50 text-[#6a7490]",
+      url: "bg-[#2b2f3a]/50 text-[#98a6d0]",
     },
     toggle: "bg-[#2b2f3a]/80 border-[#505870]/40 text-[#e8eaf0]",
     text: {
       primary: "text-[#e8eaf0]",
-      secondary: "text-[#9096a8]",
-      muted: "text-[#5a5f72]",
+      secondary: "text-[#a5acc1]",
+      muted: "text-[#a1aacd]",
     },
     button: {
       solid: "bg-[#4dbd8f] text-[#2b2f3a] hover:bg-[#3da878]",
