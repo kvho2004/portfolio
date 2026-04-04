@@ -5,7 +5,7 @@ export default function Projects() {
   const { theme } = useTheme();
 
   return (
-    <section className={`transition-colors duration-500 ${theme.bg.primary}`}>
+    <section id="projects" className={`transition-colors duration-500 ${theme.bg.primary}`}>
       <div className="max-w-4xl mx-auto px-6 py-24">
         <p
           className={`text-xs font-mono tracking-widest uppercase mb-2 ${theme.text.muted}`}

@@ -6,7 +6,7 @@ export default function Hero() {
   const { theme, mode, toggle } = useTheme();
 
   return (
-    <section
+    <section id = "hero"
       className={`min-h-screen flex flex-col items-center justify-center px-6 py-24 ${theme.bg.page}`}
     >
       {/* Toggle */}

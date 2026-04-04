@@ -10,7 +10,7 @@ export const ASCII_CONFIG = {
 export const SCENE_CONFIG = {
     modelPath: `${import.meta.env.BASE_URL}models/flower_pot.glb`,
     modelScale: 6,
-    modelPosition: [0, -2, 0],
+    modelPosition: [0, -2.7, 0],
     lights: {
         ambient: 0.02,
         directional: [
