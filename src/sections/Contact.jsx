@@ -4,7 +4,7 @@ import { useTheme } from "../context/ThemeContext";
 export default function Contact() {
   const { theme } = useTheme();
   return (
-    <section className="max-w-4xl mx-auto px-6 py-24">
+    <section id="contact" className="max-w-4xl mx-auto px-6 py-24">
       <p
         className={`text-sm ${theme.text.muted} tracking-widest uppercase mb-2`}
       >
