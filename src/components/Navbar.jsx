@@ -51,7 +51,7 @@ export default function Navbar() {
 
             {/* Mobile */}
             <button
-              className={`md:hidden text-xs font-mono ${theme.text.muted} `}
+              className={`md:hidden text-base font-mono ${theme.text.muted} `}
               onClick={() => setOpen(!open)}
             >
               {open ? "✕" : "≡" }
