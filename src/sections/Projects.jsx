@@ -1,5 +1,6 @@
 import { useTheme } from "../context/ThemeContext";
 import { projects } from "../data/projects";
+import highlightText from "../utils/highlight";
 
 export default function Projects() {
   const { theme } = useTheme();
@@ -59,8 +60,9 @@ export default function Projects() {
               </div>
 
               {/* Description */}
-              <p className={`text-sm leading-relaxed ${theme.text.secondary}`}>
-                {project.description}
+              <p className={`text-sm leading-relaxed ${theme.text.secondary}`}
+                dangerouslySetInnerHTML={{ __html: highlightText(project.description, project.highlights) }}
+              >
               </p>
 
               {/* Tags */}

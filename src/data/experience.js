@@ -4,9 +4,15 @@ export const experience = [
     company: "Bro-coli",
     period: "Jan 2026 – May 2026",
     bullets: [
-      "Architecting AI chatbot with React, TypeScript, and PostgreSQL, integrating WhatsApp Cloud and Telegram Bot APIs with webhook-based event handling",
-      "Implementing prompt engineering guardrails, content filtering, and input sanitization for secure model performance at scale",
-      "Leading technical development in Agile 2-week sprints with iterative deployment",
+      "Building a multi-platform AI chatbot across WhatsApp and Telegram with webhook-based message routing and event handling",
+      "Engineering prompt guardrails, content filtering, and input sanitization for secure AI performance at scale",
+      "Leading Agile 2-week sprints end-to-end — from feature planning with management to iterative deployment",
+    ],
+    highlights: [
+      "multi-platform AI chatbot",
+      "webhook-based message routing",
+      "prompt guardrails, content filtering, and input sanitization",
+      "Agile 2-week sprints",
     ],
   },
   {
@@ -14,20 +20,26 @@ export const experience = [
     company: "GRIP Lab – U-M Marsal School of Education",
     period: "Sep 2024 – Jan 2026",
     bullets: [
-      "Built full-stack features with REST APIs, React, Node.js, and MongoDB serving 1,000+ international math educators across 3 countries",
-      "Developed 10+ reusable UI components with stateful logic and backend integrations, reducing code redundancy by 25%",
-      "Automated video processing pipeline with Bash/FFmpeg, cutting manual work by 50%",
+      "Built full-stack features serving 1,000+ math educators across 3 countries — user auth, video annotation, and license management",
+      "Reduced front-end code redundancy by 25% with 10+ reusable, stateful UI components",
+      "Cut manual video processing work by 50% via automated Bash/FFmpeg pipeline",
     ],
+    highlights: ["1,000+ math educators across 3 countries", "25%", "50%"],
   },
   {
     role: "Vice President & Lead Developer",
     company: "Alternate Reality Initiative",
     period: "Sep 2023 – Present",
     bullets: [
-      "Rebuilt club website using React, Vite, and TypeScript with CI/CD via GitHub Actions",
-      "Developed interactive UI with Google Maps API and Three.js 3D rendering",
-      "Co-led UI/UX subteam for Kelsey Museum of Archaeology WebAR Exhibit — designing WebAR experience in Niantic 8th Wall with dual-mode Figma UI",
-      "Increased user engagement by 132% through improved SEO and WCAG 2.1 accessibility",
+      "Rebuilt club site in React/TypeScript with CI/CD, Three.js 3D rendering, and Google Maps integration",
+      "Co-led UI/UX for Kelsey Museum WebAR Exhibit — dual-mode Figma design tested across diverse visitor literacy levels",
+      "Boosted user engagement by 132% through semantic SEO and WCAG 2.1 accessibility improvements",
+    ],
+    highlights: [
+      "Three.js 3D rendering",
+      "Kelsey Museum WebAR Exhibit",
+      "132%",
+      "WCAG 2.1 accessibility",
     ],
   },
   {
@@ -35,19 +47,28 @@ export const experience = [
     company: "U-M Library Scholars Program",
     period: "May 2025 – Aug 2025",
     bullets: [
-      "Automated recruitment pipeline via Qualtrics API and Calendly webhooks",
-      "Engineered stratified sampling algorithm in Google Apps Script processing 709 participants with hash-based deduplication",
+      "Engineered a stratified sampling algorithm in Google Apps Script processing 709 participants with hash-based deduplication",
+      "Eliminated manual data entry by automating the full recruitment pipeline via Qualtrics API and Calendly webhooks",
+    ],
+    highlights: [
+      "709 participants",
+      "hash-based deduplication",
+      "automated the full recruitment pipeline",
     ],
   },
   {
-    role: "Joy of Coding Teaching Assistant",
-    company: "University of Michigan Electrical and Computer Engineering Department",
-    period: "April 2024 – Sep 2024",
+    role: "Teaching Assistant — Joy of Coding",
+    company: "U-M Electrical and Computer Engineering",
+    period: "Apr 2024 – Sep 2024",
     bullets: [
-      "Coached over 700 students from around the world in coding fundamentals",
-      "Hosted one-to-one virtual office hours meetings with students to assist them with their assignments and provided personalized guidance.",
-      "Graded and provided feedback on students' work to help them improve their coding abilities.", 
-      "Reviewed and assessed learning content, which included Python basics and introductory machine learning, collecting data on students' work and responses to inform and enhance the lesson content."
+      "Supported 700+ global students in Python fundamentals and introductory machine learning",
+      "Led one-on-one virtual office hours with personalized feedback on assignments",
+      "Collected and analyzed student response data to iteratively improve lesson content",
+    ],
+    highlights: [
+      "700+ global students",
+      "Python fundamentals and introductory machine learning",
+      "iteratively improve lesson content",
     ],
   },
 ];

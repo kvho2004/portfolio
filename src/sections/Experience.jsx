@@ -1,5 +1,6 @@
 import { useTheme } from "../context/ThemeContext";
 import { experience } from "../data/experience";
+import highlightText from "../utils/highlight";
 
 export default function Experience() {
   const { theme } = useTheme();
@@ -36,9 +37,8 @@ export default function Experience() {
                     <li
                       key={i}
                       className={`text-sm leading-relaxed pl-3 border-l ${theme.text.muted} ${theme.card.divider}`}
-                    >
-                      {b}
-                    </li>
+                      dangerouslySetInnerHTML={{ __html: highlightText(b, job.highlights) }}
+                    />
                   ))}
                 </ul>
               </div>
