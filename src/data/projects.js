@@ -36,7 +36,7 @@ export const projects = [
     tags: ["Unity", "Niantic 8th Wall", "Figma", "AR/XR", "UI/UX"],
     github: null,
     live: null,
-    demo: "https://www.figma.com/make/0BUY3lKSC3lSQWkmW6zQxp/Museum-Artifact-Pokedex?t=L77dtTMm4iWrrbTY-1",
+    demo: "https://www.figma.com/make/0BUY3lKSC3lSQWkmW6zQxp/Museum-Artifact-Pokedex?p=f&t=HX1BfHmHcSZ8BsOr-0&fullscreen=1",
     status: "In Progress",
   },
   {
