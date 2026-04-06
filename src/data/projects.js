@@ -3,7 +3,7 @@ export const projects = [
     title: "Built Bottom Up",
     subtitle: "AI-Powered Course Content Platform · IFSA × Maffeo Drinks",
     description:
-      "Backend infrastructure and admin dashboard for an AI-powered certification platform, built with a drinks industry consultancy. A Node.js/Express + Supabase pipeline extracts structured lessons from podcast episodes, auto-generates practice and exam questions, and exposes REST APIs for a parallel student-experience team.",
+      "Backend infrastructure and admin dashboard for an AI-powered certification platform, built with a drinks industry consultancy.",
     highlights: [
       "Node.js/Express + Supabase pipeline",
       "REST APIs",
@@ -27,7 +27,7 @@ export const projects = [
     title: "WebAR Roman Artifact Exhibit",
     subtitle: "Kelsey Museum of Archaeology · UI/UX Lead",
     description:
-      "Mobile AR experience letting museum visitors scan and interact with 3D Roman artifacts — bringing storage-only collection pieces to life. Designed a dual-mode UI (discovery and library modes) in Figma, tested across visitors with varied technology literacy levels, in collaboration with museum curators.",
+      "Mobile AR experience letting museum visitors scan and interact with 3D Roman artifacts. Designed a Figma prototype, in collaboration with museum curators.",
     highlights: [
       "dual-mode UI system",
       "user-tested across varied visitor literacy levels",
@@ -43,7 +43,7 @@ export const projects = [
     title: "LingBuddy",
     subtitle: "AI-Powered Adaptive French Tutor",
     description:
-      "Full-stack adaptive French tutor built on spaced repetition and deliberate practice principles. A rule-based mastery engine drives adaptive scoring and user-specific priority queues — a user study showed a 27% average accuracy improvement across 5 participants. GPT-4 powers real-time grammar feedback and scenario-based conversation practice.",
+      "Full-stack adaptive French tutor built on spaced repetition and deliberate practice principles. GPT-4 API powers real-time grammar feedback and scenario-based conversation practice.",
     highlights: [
       "27% average accuracy improvement",
       "rule-based mastery engine",
@@ -53,7 +53,7 @@ export const projects = [
       "Django",
       "OpenAI GPT-4",
       "SQLite",
-      "JavaScript",
+      "Python",
       "HTML/CSS",
       "Figma",
     ],
@@ -66,7 +66,7 @@ export const projects = [
     title: "Anotemos",
     subtitle: "GRIP Lab · University of Michigan",
     description:
-      "Full-stack features for an educational research platform serving 1,000+ math educators across 3 countries. Built 10+ reusable, stateful UI components and facilitated 14+ teacher data collection sessions to directly inform feature prioritization — reducing front-end code redundancy by 25%.",
+      "Full-stack features for an educational research platform serving 1,000+ math educators across 3 countries. Built 10+ reusable, stateful UI components and facilitated 14+ teacher data collection sessions to directly inform feature prioritization.",
     highlights: [
       "1,000+ educators across 3 countries",
       "25% reduction in code redundancy",
@@ -81,7 +81,7 @@ export const projects = [
     title: "ASL Interpreter",
     subtitle: "Chrome Extension · Passion Project",
     description:
-      "Browser extension that translates ASL fingerspelling into real-time text input — enabling deaf and hard-of-hearing users to interact with any web form using sign language. Uses MediaPipe Hands for fully client-side hand landmark detection with no data sent to a server.",
+      "Browser extension that translates real ASL-to-text feedback. Accessibility project for deaf and hard-of-hearing users.",
     highlights: [
       "real-time ASL-to-text",
       "fully client-side",
@@ -96,13 +96,13 @@ export const projects = [
     title: "ARI Club Website",
     subtitle: "Alternate Reality Initiative",
     description:
-      "Rebuilt the club site in React/TypeScript with Three.js 3D rendering, Google Maps integration, and GitHub Actions CI/CD. Improved SEO and WCAG 2.1 accessibility — boosting user engagement by 132%.",
+      "Rebuilt the club site in React/JavaScript with Three.js 3D rendering, Google Maps integration, and GitHub Actions. Unit Testing with Vitest and React Testing Library. Improving WCAG 2.1 accessibility compliance with Playwright AXE.",
     highlights: [
       "132% increase in user engagement",
       "Three.js 3D rendering",
       "WCAG 2.1 accessibility",
     ],
-    tags: ["React", "TypeScript", "Three.js", "Vite", "GitHub Actions"],
+    tags: ["React", "JavaScript", "Three.js", "Vite", "Playwright", "GitHub Actions"],
     github: "https://github.com/altrealityinitiative/ari-web",
     live: null,
     status: "In Testing",
