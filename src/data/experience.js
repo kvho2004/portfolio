@@ -20,7 +20,7 @@ export const experience = [
     company: "GRIP Lab – U-M Marsal School of Education",
     period: "Sep 2024 – Jan 2026",
     bullets: [
-      "Built full-stack features serving 1,000+ math educators across 3 countries — user auth, video annotation, and license management",
+      "Built full-stack features (user auth, video annotation, and license management) for a platform serving 1,000+ math educators across 3 countries",
       "Reduced front-end code redundancy by 25% with 10+ reusable, stateful UI components",
       "Cut manual video processing work by 50% via automated Bash/FFmpeg pipeline",
     ],
@@ -32,7 +32,7 @@ export const experience = [
     period: "Sep 2023 – Present",
     bullets: [
       "Rebuilt club site in React/TypeScript with CI/CD, Three.js 3D rendering, and Google Maps integration",
-      "Co-led UI/UX for Kelsey Museum WebAR Exhibit — dual-mode Figma design tested across diverse visitor literacy levels",
+      "Co-led UI/UX team for Kelsey Museum WebAR Exhibit prototype in Figma ",
       "Boosted user engagement by 132% through semantic SEO and WCAG 2.1 accessibility improvements",
     ],
     highlights: [
