@@ -8,6 +8,4 @@ export const info = {
   email: "kvho@umich.edu",
   github: "https://github.com/kvho2004",
   linkedin: "https://www.linkedin.com/in/kvho/",
-  resume:
-    "https://drive.google.com/file/d/1CkVr1jDp5FLpeJ5_fXTJebDdwT-F7vWf/view?usp=sharing",
 };

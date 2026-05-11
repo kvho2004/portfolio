@@ -64,14 +64,14 @@ export default function Hero() {
               {info.bio}
             </p>
             <div className="flex flex-wrap gap-3">
-              <a
+              {/* <a
                 href={info.resume}
                 target="_blank"
                 rel="noreferrer"
                 className={`px-5 py-2 text-xs font-mono rounded-md transition-colors duration-200 ${theme.button.solid}`}
               >
                 Resume
-              </a>
+              </a> */}
               <a
                 href={info.github}
                 target="_blank"

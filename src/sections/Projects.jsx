@@ -119,6 +119,16 @@ export default function Projects() {
                     View Client Website →
                   </a>
                 )}
+                {project.live && (
+                  <a  
+                    href={project.live}
+                    target="_blank"
+                    rel="noreferrer"
+                    className={`text-sm transition-colors duration-200 hover:opacity-100 opacity-60 ${theme.text.secondary}`}
+                  >
+                    View Live Site →
+                  </a>
+                )}  
               </div>
             </div>
           ))}

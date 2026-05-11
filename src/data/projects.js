@@ -1,5 +1,30 @@
 export const projects = [
   {
+    title: "Benchmarking Open-weight Models for WCAG Detection",
+    subtitle: "Directed Research Project with Professor Ondřej Kuželka",
+    description:
+      "Comparative analysis of open-weight models for detecting WCAG compliance in web content. Evaluated 3 models performance within a per-criterion WCAG detection pipeline across 142 manually annotated web pages",
+    highlights: [
+      "comprehensive WCAG detection pipeline",
+      "142 manually annotated web pages",
+      "comparative analysis of 3 open-weight models",
+    ],
+    tags: [
+      "Python",
+      "Open-Weight Models",
+      "WCAG",
+      "Accessibility",
+      "Selenium",
+      "Playwright",
+      "axe-core",
+      "BeautifulSoup",
+      "Data Analysis",
+    ],
+    github: null,
+    live: null,
+    status: "In Progress",
+  },
+  {
     title: "Built Bottom Up",
     subtitle: "AI-Powered Course Content Platform · IFSA × Maffeo Drinks",
     description:
@@ -11,7 +36,8 @@ export const projects = [
     ],
     tags: [
       "Node.js",
-      "Express",
+      "Express.js",
+      "Render",
       "Supabase",
       "PostgreSQL",
       "Claude API",
@@ -20,8 +46,8 @@ export const projects = [
     ],
     github: null,
     live: null,
-    status: "In Progress",
-    client: "https://www.maffeodrinks.com/",
+    status: "Completed",
+    link: "https://drive.google.com/file/d/1yT2bhaw6uRkngNDspyZ_9y25-QYfR6BI/view?usp=sharing",
   },
   {
     title: "WebAR Roman Artifact Exhibit",
@@ -49,14 +75,7 @@ export const projects = [
       "rule-based mastery engine",
       "GPT-4 conversation tutoring",
     ],
-    tags: [
-      "Django",
-      "OpenAI GPT-4",
-      "SQLite",
-      "Python",
-      "HTML/CSS",
-      "Figma",
-    ],
+    tags: ["Django", "OpenAI GPT-4", "SQLite", "Python", "HTML/CSS", "Figma"],
     github: null,
     live: null,
     status: "Completed",
@@ -96,15 +115,22 @@ export const projects = [
     title: "ARI Club Website",
     subtitle: "Alternate Reality Initiative",
     description:
-      "Rebuilt the club site in React/JavaScript with Three.js 3D rendering, Google Maps integration, and GitHub Actions. Unit Testing with Vitest and React Testing Library. Improving WCAG 2.1 accessibility compliance with Playwright AXE.",
+      "Rebuilt the club site in React/JavaScript with Three.js 3D rendering, Google Maps integration, and GitHub Actions. Unit Testing with Vitest and React Testing Library. Improving WCAG 2.1 accessibility compliance with Playwright axe-core.",
     highlights: [
       "132% increase in user engagement",
       "Three.js 3D rendering",
       "WCAG 2.1 accessibility",
     ],
-    tags: ["React", "JavaScript", "Three.js", "Vite", "Playwright", "GitHub Actions"],
-    github: "https://github.com/altrealityinitiative/ari-web",
-    live: null,
-    status: "In Testing",
+    tags: [
+      "React",
+      "JavaScript",
+      "Three.js",
+      "Vite",
+      "Playwright",
+      "GitHub Actions",
+    ],
+    // github: "https://github.com/altrealityinitiative/ari-web",
+    live: "https://www.altrirealityinitiative.com/",
+    status: "Completed",
   },
 ];
