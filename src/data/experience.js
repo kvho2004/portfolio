@@ -24,7 +24,7 @@ export const experience = [
     bullets: [
       "Built full-stack features (user auth, video annotation, and license management) for a platform serving 1,000+ math educators across 3 countries",
       "Reduced front-end code redundancy by 25% with 10+ reusable, stateful UI components",
-      "Cut manual video processing work by 50% via automated Bash/FFmpeg pipeline",
+      "Built a lightweight video-processing pipeline in Bash using FFmpeg to automate frame extraction and data segmentation",
     ],
     highlights: ["1,000+ math educators across 3 countries", "25%", "50%"],
   },
