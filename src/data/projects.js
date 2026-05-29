@@ -130,7 +130,7 @@ export const projects = [
       "GitHub Actions",
     ],
     // github: "https://github.com/altrealityinitiative/ari-web",
-    live: "https://www.altrirealityinitiative.com/",
+    live: "https://www.altrealityinitiative.com/",
     status: "Completed",
   },
 ];

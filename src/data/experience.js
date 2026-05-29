@@ -5,7 +5,7 @@ export const experience = [
     period: "Jan 2026 – May 2026",
     bullets: [
       "Built a RAG-based LLM pipeline with LangChain and FastAPI, scraping and chunking real-time web data into semantically embedded vector documents; automated workflow orchestration via n8n, replacing an 800+ line static knowledge base and reducing hallucinations",
-      "Architected a webhook-based message routing system for a multi-platform AI chatbot (web, Whatsapp, Telegram) using Node.js and Express and an admin dashboard for customer support and leads capture",
+      "Architected a webhook-based message routing system for a multi-platform AI chatbot (web, Whatsapp, Telegram) and an admin dashboard for customer support and leads capture",
       "Implemented prompt engineering guardrails, content filtering, schema validation, rate limiting, and input sanitization to ensure safe and reliable chatbot interactions across multiple platforms (web, Whatsapp, and Telegram)",
       "Leading Agile 2-week sprints end-to-end, from feature planning with management to iterative deployment",
     ],
